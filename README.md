@@ -7,3 +7,11 @@ il prezzo del biglietto è definito in base ai km (0.21 € al km)
 va applicato uno sconto del 20% per i minorenni
 va applicato uno sconto del 40% per gli over 65.
 L’output del prezzo finale va messo fuori in forma umana (con massimo due decimali, per indicare centesimi sul prezzo).
+
+
+-    chiedo i dati che mi servono all'utente;
+-   stabilisco il prezzo del biglietto;
+-   stabilisco che esiste uno sconto in base all'età;
+-  calcolo il prezzo finale meno lo sconto;
+
+-  stampo il risultato in pagina;
