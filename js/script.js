@@ -27,17 +27,13 @@ const ticketPrice = kilometerPrice * kilometres;
 
 // stabilisco che esiste uno sconto in base all'età 
 
-let discount 
+let discount = 0;
 
 if(age < 18) {
   discount = (ticketPrice * 20)/100;
-}
-
-
-if(age > 65) {
+} else if (age > 65) {
   discount = (ticketPrice * 40)/100;
 }
-
 
 
 let finalPrice = (ticketPrice - discount).toFixed(2);
