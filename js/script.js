@@ -31,17 +31,18 @@ let discount = 0;
 
 if(age < 18) {
   discount = (ticketPrice * 20)/100;
-}else discount = 0;
+}else {discount = 0;
+}
 
 
 if(age > 65) {
   discount = (ticketPrice * 40)/100;
-}else discount = 0;
+}else {discount = 0;
+}
 
 
 let finalPrice = (ticketPrice - discount).toFixed(2);
 
-console.log(finalPrice)
 
 // stampo il risultato in pagina
 
