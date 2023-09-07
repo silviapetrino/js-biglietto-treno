@@ -36,7 +36,7 @@ if(age < 18) {
 }
 
 
-let finalPrice = (ticketPrice - discount).toFixed(2);
+let finalPrice = (ticketPrice - discount).toFixed(2) + "€";
 
 
 // stampo il risultato in pagina
